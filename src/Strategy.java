@@ -1,4 +1,4 @@
-public abstract class Strategy {
+public abstract class Strategy implements TemplateStrategyInfo {
     protected java.time.LocalDate currentData;
     protected java.time.LocalTime currentTime;
     Strategy(){
