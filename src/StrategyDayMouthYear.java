@@ -1,4 +1,4 @@
-public class Strategy1 extends Strategy {
+public class StrategyDayMouthYear extends Strategy {
     @Override
     public void format() {
         System.out.printf(currentData.getDayOfMonth() + "." + currentData.getMonthValue() + "." + currentData.getYear() + " ");
