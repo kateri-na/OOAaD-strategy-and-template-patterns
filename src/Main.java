@@ -16,6 +16,8 @@ public class Main {
                 Strategy str = choiceSolution(choice);
                 solution.setSolution(str);
                 solution.getSolution().format();
+                solution.getSolution().InputStrategyName();
+                solution.getSolution().InputStrategyInfo();
                 System.out.println("Вы хотите закончить выполнение программы? " +
                         "E/e - выйти, любое другое - продолжить");
                 String isExit = in.next();
